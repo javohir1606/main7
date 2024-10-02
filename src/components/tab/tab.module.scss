@@ -1,0 +1,141 @@
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #000;
+  padding: 13px 28px;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.pic {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 47px;
+  justify-content: center;
+}
+.block {
+  width: 285px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  position: relative;
+}
+.img{
+position: absolute;
+top: 0;
+left: 20px;
+}
+.imges{
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+.desc {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.text {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--0e2149);
+  margin-bottom: 10px;
+}
+.tx {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 130%;
+  color: #111111;
+  margin-bottom: 11px;
+}
+.item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--0e2149);
+  margin-bottom: 8px;
+}
+.wrap {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: line-through;
+  color: #cfb08b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+ul,
+li {
+  list-style: none;
+}
+.list {
+  border: 1px solid #eff2f4;
+  width: 122px;
+  height: 24px;
+  padding: 3px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 130%;
+  color: #717171;
+}
+.link {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 130%;
+  color: white;
+  background: #cfb08b;
+  width: 42px;
+  height: 24px;
+  padding: 5px;
+  cursor: pointer;
+}
+.ls {
+  display: flex;
+  align-items: center;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.hero_btn{
+  font-family: var(--font-family);
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: white;
+padding: 12px 26px;
+background: #0e2149;
+border: none;
+}
+.hero_button{
+  font-family: var(--font-family);
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: white;
+padding: 12px 19px 11px 24px;
+background: #cfb08b;
+border: none;
+}
+.title{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}

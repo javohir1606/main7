@@ -1,0 +1,42 @@
+.row {
+  background-color: #0e2149;
+  background-size: cover;
+  padding: 20px;
+  margin-top: 20px;
+}
+.link{
+  font-family: var(--second-family);
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+.pic{
+  display: flex;
+  gap: 50px;
+}
+.input{
+  font-family: var(--font-family);
+font-style: italic;
+font-weight: 400;
+font-size: 13px;
+color: white;
+padding: 25px 22px 13px 23px;
+width: 348px;
+height: 50px;
+background-color: #253b6a;
+border: none;
+}
+.img{
+ position: absolute;
+ top: 21px;
+ right: 13px;
+}
+.title{
+  position: relative;
+
+}
+.block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,34 @@
+.block {
+  position: relative;
+}
+.menu {
+  padding-top: 63px;
+  padding-bottom: 57px;
+}
+.text {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  color: white;
+  width: 170px;
+  position: absolute;
+  top: 60px;
+  left: 28px;
+}
+.tx {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  width: 255px;
+  color: white;
+  position: absolute;
+  top: 129px;
+  left: 28px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
