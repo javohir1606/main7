@@ -3,6 +3,7 @@ import { Header } from "../../layout/header/header";
 import { data } from "../../data/data";
 import style from './home.module.scss'
 import { TabCard } from "../../components/tab/tab";
+import { Footer } from "../../layout/footer/footer";
 export const Home = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ export const Home = () => {
       </div>
       </div>
       <TabCard />
+      <Footer />
     </div>
   );
 };
